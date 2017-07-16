@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yck666.github.io/"/>
-  <updated>2017-07-16T05:59:52.771Z</updated>
+  <updated>2017-07-16T17:44:34.386Z</updated>
   <id>https://yck666.github.io/</id>
   
   <author>
@@ -16,43 +16,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>newPost</title>
-    <link href="https://yck666.github.io/2017/07/16/newPost/"/>
-    <id>https://yck666.github.io/2017/07/16/newPost/</id>
-    <published>2017-07-16T05:59:52.000Z</published>
-    <updated>2017-07-16T05:59:52.771Z</updated>
+    <title>字符串匹配的KMP算法</title>
+    <link href="https://yck666.github.io/2017/07/17/2017-7-17-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84KMP%E7%AE%97%E6%B3%95/"/>
+    <id>https://yck666.github.io/2017/07/17/2017-7-17-字符串匹配的KMP算法/</id>
+    <published>2017-07-16T17:35:14.000Z</published>
+    <updated>2017-07-16T17:44:34.386Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://yck666.github.io/2017/07/16/hello-world/"/>
-    <id>https://yck666.github.io/2017/07/16/hello-world/</id>
-    <published>2017-07-16T05:14:47.634Z</published>
-    <updated>2017-07-16T05:14:47.634Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<pre><code>刚看完数据结构与算法，看到里面的字符串匹配的KMP算法，在参考里阮一峰老师的blog后，
+</code></pre><p>发现还是很好理解，<br>大家对KMP感兴趣的可以看看原文<br><a href="http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html</a><br>    其中最主要的就是对于部分匹配值额理解，其实也很简单，只要你理解了他定义的前缀和后缀的概念，<br>然后对应找到匹配值个数多少就好了。<br>    我觉得关于学习，最主要的还是要学会在网上自己查找资料，很多过来人整理的资料都能让我们豁然开朗。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;pre&gt;&lt;code&gt;刚看完数据结构与算法，看到里面的字符串匹配的KMP算法，在参考里阮一峰老师的blog后，
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;发现还是很好理解，&lt;br&gt;大家对KMP感兴趣的可以看看原文&lt;br&gt;&lt;a href=&quot;http://www.ruanyifeng.com/
     
     </summary>
     
+    
+      <category term="-数据结构与算法     -KMP算法       -学习" scheme="https://yck666.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-KMP%E7%AE%97%E6%B3%95-%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重新搭建了我的博客。Staring</title>
+    <link href="https://yck666.github.io/2017/07/16/2017-7-16-I&#39;m-Coming/"/>
+    <id>https://yck666.github.io/2017/07/16/2017-7-16-I&#39;m-Coming/</id>
+    <published>2017-07-16T04:29:54.000Z</published>
+    <updated>2017-07-16T17:44:26.195Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>###刚刚使用github和jekyll搭建好博客，关于搭建和模板选择上遇到的问题和解决方法
+
+注册并搞好了博客界面，大家有不懂的，可以百度下，很多都有详细的方法。另外可以参考下这篇，
+每一步都写的很详细https://www.zhihu.com/question/59088760 。不过他的系统是windows的
+所以其实相对还是麻烦一些，如果你和我一样也是linux系统那么更加方便，关于jekyll的安装和git
+的安装都是几条命令的事情，百度上一查一大堆这种回答。还有在搭建过程中我意外的看到了一个jekyll
+中文的网址，里面关于jekyll的各个文件及文件夹的功能和使用都讲的很详细，大家可以看看，
+http://jekyll.com.cn/docs/home/
+在看了那么多的模板后，我还是选择了最最最简单直接低调的一种，大家可以参考下，
+喜欢的话可以fork  。https://yck666.github.io/ 
+最后是希望能一起进步，一起学习。####
+
+
+
+上面那些是之前使用github和jekyll搭建github博客写的。第二次搭建blog发现还是很有收获的，为这次
+</code></pre><p>   是使用hexo来搭建博客，hexo更加的方便快速，在有了第一次经验后根据百度便能很快的搞定，而且满意程度<br>   比用jekyll搭建的还高，hexo不仅提供了不错的主题，而且在修改布局方面也是非常的方便。另外附上大神的<br>   帖子，不仅让为成功完成，而且很有收获。<br>   <a href="http://blog.csdn.net/tx874828503/article/details/51577815" target="_blank" rel="external">http://blog.csdn.net/tx874828503/article/details/51577815</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;###刚刚使用github和jekyll搭建好博客，关于搭建和模板选择上遇到的问题和解决方法
+
+注册并搞好了博客界面，大家有不懂的，可以百度下，很多都有详细的方法。另外可以参考下这篇，
+每一步都写的很详细https://www.zhihu.com/quest
+    
+    </summary>
+    
+    
+      <category term="-开始" scheme="https://yck666.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
     
   </entry>
   
