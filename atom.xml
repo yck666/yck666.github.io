@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yck666.github.io/"/>
-  <updated>2017-07-16T17:44:34.386Z</updated>
+  <updated>2017-07-16T17:47:01.672Z</updated>
   <id>https://yck666.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://yck666.github.io/2017/07/17/2017-7-17-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84KMP%E7%AE%97%E6%B3%95/"/>
     <id>https://yck666.github.io/2017/07/17/2017-7-17-字符串匹配的KMP算法/</id>
     <published>2017-07-16T17:35:14.000Z</published>
-    <updated>2017-07-16T17:44:34.386Z</updated>
+    <updated>2017-07-16T17:47:01.672Z</updated>
     
     <content type="html"><![CDATA[<pre><code>刚看完数据结构与算法，看到里面的字符串匹配的KMP算法，在参考里阮一峰老师的blog后，
 </code></pre><p>发现还是很好理解，<br>大家对KMP感兴趣的可以看看原文<br><a href="http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html</a><br>    其中最主要的就是对于部分匹配值额理解，其实也很简单，只要你理解了他定义的前缀和后缀的概念，<br>然后对应找到匹配值个数多少就好了。<br>    我觉得关于学习，最主要的还是要学会在网上自己查找资料，很多过来人整理的资料都能让我们豁然开朗。</p>
@@ -34,7 +34,7 @@
     </summary>
     
     
-      <category term="-数据结构与算法     -KMP算法       -学习" scheme="https://yck666.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-KMP%E7%AE%97%E6%B3%95-%E5%AD%A6%E4%B9%A0/"/>
+      <category term="数据结构与算法 KMP算法 学习" scheme="https://yck666.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-KMP%E7%AE%97%E6%B3%95-%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -43,7 +43,7 @@
     <link href="https://yck666.github.io/2017/07/16/2017-7-16-I&#39;m-Coming/"/>
     <id>https://yck666.github.io/2017/07/16/2017-7-16-I&#39;m-Coming/</id>
     <published>2017-07-16T04:29:54.000Z</published>
-    <updated>2017-07-16T17:44:26.195Z</updated>
+    <updated>2017-07-16T17:47:08.416Z</updated>
     
     <content type="html"><![CDATA[<pre><code>###刚刚使用github和jekyll搭建好博客，关于搭建和模板选择上遇到的问题和解决方法
 
@@ -73,7 +73,7 @@ http://jekyll.com.cn/docs/home/
     </summary>
     
     
-      <category term="-开始" scheme="https://yck666.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
+      <category term="开始" scheme="https://yck666.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
     
   </entry>
   
