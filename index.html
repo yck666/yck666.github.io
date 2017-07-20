@@ -265,6 +265,121 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://yck666.github.io/2017/07/20/2017-7-20-最小生成树/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨长">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ww3.sinaimg.cn/thumb150/005OoAw2jw8f7eax4wadwj30hs0hrjs7.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yckkk!!">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/20/2017-7-20-最小生成树/" itemprop="url">2017-7-20-最小生成树（普里姆算法和克鲁斯卡尔算法）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-20T21:42:59+08:00">
+                2017-07-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>所谓的最小生成树是：在给定的一个带权的无向连通图，如何选取一棵生成树，<br>使树上所有边上权的总和最小。</p>
+<p>求最小生成树的算法一般有普里姆算法和克鲁斯卡尔算法。</p>
+<p>普里姆算法：<br>    图的存贮结构采用邻接矩阵.此方法是按各个顶点连通的步骤进行,需要用一个顶点集合,开始为空集,以后将以连通的顶点陆续加入到集合中,全部顶点加入集合后就得到所需的最小生成树 .<br>    方法:从指定顶点开始将它加入集合中,然后将集合内的顶点与集合外的顶点所构成的所有边中选取权值最小的一条边作为生成树的边,并将集合外的那个顶点加入到集合中,表示该顶点已连通.再用集合内的顶点与集合外的顶点构成的边中找最小的边,并将相应的顶点加入集合中,如此下去直到全部顶点都加入到集合中,即得最小生成树.</p>
+<p>克鲁斯卡尔算法：<br>    图的存贮结构采用边集数组,且权值相等的边在数组中排列次序可以是任意的.该方法对于边相对比较多的不是很实用,浪费时间.<br>    方法:将图中边按其权值由小到大的次序顺序选取,若选边后不形成回路,则保留作为一条边,若形成回路则除去.依次选够(n-1)条边,即得最小生成树.(n为顶点数)</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://yck666.github.io/2017/07/17/2017-7-17-将进酒/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -668,7 +783,7 @@ http://jekyll.com.cn/docs/home/
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -681,7 +796,7 @@ http://jekyll.com.cn/docs/home/
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
