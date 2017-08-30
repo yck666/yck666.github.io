@@ -42,11 +42,11 @@
   </entry>
   
   <entry>
-    <title>梯度下降法</title>
+    <title>2017-7-25梯度下降法</title>
     <link href="https://yck666.github.io/2017/07/25/2017-7-25%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/"/>
     <id>https://yck666.github.io/2017/07/25/2017-7-25梯度下降法/</id>
     <published>2017-07-25T13:39:22.000Z</published>
-    <updated>2017-07-25T14:17:40.497Z</updated>
+    <updated>2017-08-30T12:58:25.651Z</updated>
     
     <content type="html"><![CDATA[<pre><code>在学习&lt;&lt;Tensorflow实战google学习框架&gt;&gt;这本书中，对于神经网络的误差
 </code></pre><p>反向传播算法中，让我再一次加强了对梯度下降法求解使损失函数J()取得最小的<br>参数的求解。<br>     关于梯度下降法，在最核心的神经网络结构——BP神经网络中也有应用，这也<br>说明深度学习是建立在多层神经网络的基础上的，之前看BP神经网络对梯度下降法<br>不是很理解，就看了吴恩达的斯坦福机器学习视频，里面关于梯度下降算法讲的非<br>常仔细，在此，我简单的做下笔记。<br>     再联系最经典的神经网络架构<br>     <img src="http://www.ppvke.com/Blog/wp-content/uploads/2016/08/1ec6226f005582b45d8c558a586334a4.jpg" alt=""><br>     设输入为Xi，权值参数为W，ps:图片是百度找的，大概就是这样的模型。<br>     那么函数h(X)=X0+w1x1+w2x2…<br>     那么评估hw(X)函数 J(w) 然后再对J(w)求偏导，也就是梯度下降，再经过迭代<br>找出最优解或者局部最优解或者相对最优解<br>     本来想打出来但是很多符号不太好打，所以我在百度找了一份讲的比较清晰的。<br>     大家可以参考一下<br>     <a href="http://blog.csdn.net/shijing_0214/article/details/51923547" target="_blank" rel="external">http://blog.csdn.net/shijing_0214/article/details/51923547</a></p>
